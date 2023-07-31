@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML Tables</title>
+    <style>
+        h1 {
+            text-align: center;
+            color: rgb(255, 0, 34);
+            font-size: 50px;
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri;
+        }
+        table{
+            width: 100%;
+            border-collapse: collapse;
+        }
+        th, td {
+            border: 2px solid black;
+            padding: 10px;
+            text-align: left;
+        }
+        th {
+            background-color: rgb(113, 108, 189);
+            font-size: 30px;
+        }
+        tr {background-color: aliceblue;}
+        
+        tr:hover {
+            background-color: aqua;
+        }
+        table {
+            font-size: 25px;
+            font-family: 'Times New Roman', Times, serif;
+        }
+    </style>
+</head>
+<body>
+    <h1><u>EMPLOYEE INFORMATION</u></h1>
+    <table>
+        <thead>
+            <tr>
+                <th scope="col">Name</th>
+                <th scope="col">City</th>
+                <th scope="col">Age</th>
+                <th scope="col">Proffesion</th>
+                <th scope="col">Pay</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Ann Kami</td>
+                <td>Mombasa</td>
+                <td>27</td>
+                <td>Teacher</td>
+                <td>10000</td>
+            </tr>
+            <tr>
+                <td>Moses Keter</td>
+                <td>Nairobi</td>
+                <td>30</td>
+                <td>Doctor</td>
+                <td>20000</td>
+
+            </tr>
+            <tr>
+                <td>Morris Njue</td>
+                <td>Diani</td>
+                <td>45</td>
+                <td>Electrician</td>
+                <td>30000</td>
+
+            </tr>
+        </tbody>
+        <tfoot>
+            <tr>
+                <td colspan="4">Total</td>
+                <td>60000</td>
+            </tr>
+        </tfoot>
+    </table>
+</body>
+</html>
