@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sample Form</title>
+</head>
+<body>
+    <form action="#" >
+    
+        <fieldset>
+            <legend>Personal Information</legend>
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required><br>
+
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required><br>
+
+            <label for="age">Age:</label>
+            <input type="number" id="age" name="age" required><br>
+
+            <!-- Task 2: Input Types -->
+            <label for="phonenumber">Phone Number:</label>
+            <input type="tel" id="phone" name="phone" pattern="[0-9]+"><br>
+
+            <label for="dob">Date of Birth:</label>
+            <input type="date" id="dob" name="dob" required><br>
+
+            <label for="county">Country of Resindence:</label>
+            <select name="country" id="country">
+                <option value="#"></option>
+                <option value="Kenya">Kenya</option>
+                <option value="uganda">Uganda</option>
+                <option value="rwanda">Rwanda</option>
+                <option value="congo">Congo</option>
+                <option value="somalia">Solalia</option>
+                <option value="ethiopia">Ethiopia</option>
+
+            </select><br>
+        </fieldset>
+
+        <!-- Task 3: Radio Buttons and Checkboxes -->
+        <fieldset>
+            <legend>Interests:</legend>
+            <label><input type="radio" name="gender" value="Male">Male</label>
+            <label><input type="radio" name="gender" value="Female">Female</label>
+            <label><input type="radio" name="gender" value="Other">Other</label><br>
+
+            <label><input type="checkbox" name="hobby" value="Reading">Reading</label>
+            <label><input type="checkbox" name="hobby" value="Sports">Sports</label>
+            <label><input type="checkbox" name="hobby" value="Music">Music</label>
+            <label><input type="checkbox" name="hobby" value="Travel">Travel</label>
+            <label><input type="checkbox" name="hobby" value="Swimming">Swimming</label>
+            <label><input type="checkbox" name="hobby" value="Motorcycling">Motorcycling</label>
+            <label><input type="checkbox" name="hobby" value="Singing">Singing</label>
+            <label><input type="checkbox" name="hobby" value="Cooking">Cooking</label>
+        
+        </fieldset> <br>
+
+        <!-- Task 4: Text Area and Submit Button -->
+        <label for="comments">Comments:</label>
+        <textarea id="comments" name="comments"></textarea><br>
+
+        <input type="submit" value="Submit">
+            
+
+    </form>
+    
+</body>
+</html>
