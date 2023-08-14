@@ -1,0 +1,14 @@
+.title {
+    background-color: rgb(156, 156, 211);
+}
+ul {
+    border: 1px solid rgb(79, 14, 14);
+}
+ul li {
+    font-weight: 800;
+    color: rgb(24, 73, 138);
+}
+ul > li:hover {
+    background-color: rgb(206, 167, 115);
+    color: rgb(148, 85, 13);
+}
